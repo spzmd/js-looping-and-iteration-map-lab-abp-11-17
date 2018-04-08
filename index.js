@@ -14,10 +14,12 @@ function nameToAttributes(names){
   })
 }
 
-function attributesToPhrase(names, hometowns) {
-  
+function attributesToPhrase(drivers) {
+  return drivers.map(function (driver) {
+    return `${driver.name} is from ${driver.hometown}`;
+  });
 }
 
 //{ name: 'Bobby',   hometown: 'Pittsburgh'  },
 
-//'Bobby is from Pittsburgh', 
+//'Bobby is from Pittsburgh',
