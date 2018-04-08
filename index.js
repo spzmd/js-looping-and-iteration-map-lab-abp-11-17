@@ -5,14 +5,16 @@ function lowerCaseDrivers(list) {
   })
 }
 
-function nameToAttributes(names){
-  return names.map(function(name) {
-    let fName = name.split(" ")[0]
-    let lName = name.split(" ")[1]
-    return {firstName: fName, lastName: lName}
-// firstName is considered a key, fName is considered a value.
-  })
+function nameToAttributes(list){
+	return list.map(function(driver) {
+		const driverFirst = driver.split(' ')[0];
+		const driverLast = driver.split(' ')[1];
+
+		return { firstName: driverFirst, lastName: driverLast };
+// firstName is considered a key, driverFirst is considered a value.
+	});
 }
+
 
 function attributesToPhrase(drivers) {
   return drivers.map(function (driver) {
