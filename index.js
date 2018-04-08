@@ -1,5 +1,7 @@
 // Code your solution in this file.
-const drivers = [
+
+
+/*const drivers = [
     {
       name: 'Bobby',
       hometown: 'Pittsburgh' },
@@ -21,7 +23,7 @@ function lowerCaseDrivers(drivers, string) {
   return drivers.push(driver => driver.toLowerCase() === string.toLowerCase() );
 }
 
-/*function fuzzyMatch(drivers, string) {
+function fuzzyMatch(drivers, string) {
   return drivers.filter(driver => driver.slice(0, string.length) === string);
 }
 
