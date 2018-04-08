@@ -13,32 +13,9 @@ function nameToAttributes(names){
 // firstName is considered a key, fName is considered a value.
   })
 }
-/*const drivers = [
-    {
-      name: 'Bobby',
-      hometown: 'Pittsburgh' },
-    {
-      name: 'Sammy',
-      hometown: 'New York' } ,
-    {
-      name: 'Sally',
-      hometown: 'Cleveland' },
-    {
-      name: 'Annette',
-      hometown: 'Los Angeles' },
-    {
-      name: 'Bobby',
-      hometown: 'Tampa Bay' }
-  ];
 
-function lowerCaseDrivers(drivers, string) {
-  return drivers.push(driver => driver.toLowerCase() === string.toLowerCase() );
-}
+function 
 
-function fuzzyMatch(drivers, string) {
-  return drivers.filter(driver => driver.slice(0, string.length) === string);
-}
+//{ name: 'Bobby',   hometown: 'Pittsburgh'  },
 
-function matchName(drivers, string) {
-  return drivers.filter(driver => driver.name === string);
-}*/
+//'Bobby is from Pittsburgh', 
