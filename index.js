@@ -14,7 +14,9 @@ function nameToAttributes(names){
   })
 }
 
-function 
+function attributesToPhrase(names, hometowns) {
+  
+}
 
 //{ name: 'Bobby',   hometown: 'Pittsburgh'  },
 
